@@ -37,9 +37,7 @@ This project explores order-level retail transaction data to answer key business
 - Segment and ship-mode performance comparison
 - Interactive slicers for filtering by date, region, and category
 
-*(Add 2-3 screenshots below to show the dashboard — see `screenshots/` folder)*
-
-![Dashboard Overview](screenshots/dashboard_overview.png)
+📄 [View full dashboard export (PDF)](exports/dashboard_overview.pdf)
 
 ## 🔑 Key Insights
 
@@ -56,4 +54,4 @@ This project explores order-level retail transaction data to answer key business
 
 ## 📬 Connect
 
-*(Add your LinkedIn / email here if you'd like recruiters to reach out)*
+[LinkedIn](https://www.linkedin.com/in/pijush-paul-4a6764197)
