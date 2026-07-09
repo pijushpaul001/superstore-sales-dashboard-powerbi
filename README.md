@@ -39,12 +39,50 @@ This project explores order-level retail transaction data to answer key business
 
 📄 [View full dashboard export (PDF)](exports/dashboard_overview.pdf)
 
-## 🔑 Key Insights
+## 📊 Key Insights
 
-*(Fill in 3-5 bullet points once you've reviewed your findings, e.g.:)*
-- [Region] generates the highest sales but [Region] has the strongest profit margin
-- [Category] has the highest return rate, impacting overall profitability
-- Sales peak during [time period], suggesting seasonal demand
+### 1. Furniture drives volume but barely turns a profit
+Furniture generated **$451.5K** in sales but only a **2.2% profit margin** (~$10K profit) — far below Technology (19.2%) and Office Supplies (11.6%). The **Tables sub-category is actively losing money** (‑$11,092 on $119K in sales), making it the single biggest drag on furniture profitability.
+
+| Category | Sales | Profit | Margin |
+|---|---|---|---|
+| Technology | $470.6K | $90.5K | 19.22% |
+| Office Supplies | $643.7K | $74.8K | 11.62% |
+| Furniture | $451.5K | $10.0K | 2.22% |
+
+### 2. ~19% of orders are sold at a loss
+**1,098 of 5,901 orders (18.6%)** have negative profit, totaling **‑$91,710 in losses**. Binders, Tables, and Machines are the top three loss-generating sub-categories — worth investigating for pricing/discounting strategy.
+
+| Sub-Category | Total Loss |
+|---|---|
+| Binders | ‑$22.7K |
+| Tables | ‑$19.2K |
+| Machines | ‑$19.0K |
+| Chairs | ‑$5.9K |
+| Bookcases | ‑$5.1K |
+
+### 3. Copiers and Accessories are the best-margin performers
+Despite modest sales volume, **Copiers convert 72% of sales into profit** ($59.7K sales → $42.8K profit), and Accessories turn $122.3K in sales into $25.3K profit. These are the strongest candidates for upsell and marketing focus.
+
+| Sub-Category | Sales | Profit | Margin |
+|---|---|---|---|
+| Copiers | $59.7K | $42.8K | 71.6% |
+| Accessories | $122.3K | $25.3K | 20.7% |
+| Phones | $196.6K | $22.3K | 11.3% |
+
+### 4. Regional profitability doesn't track sales volume
+The **West** leads on both sales ($522K) and margin (13.0%), but the **Central region lags at just 8.05% margin** despite solid sales ($341K) — the lowest profitability of any region, suggesting heavier discounting or higher costs there.
+
+| Region | Sales | Profit | Margin |
+|---|---|---|---|
+| West | $522.4K | $67.9K | 12.99% |
+| East | $450.2K | $53.4K | 11.86% |
+| South | $252.1K | $26.6K | 10.53% |
+| Central | $341.0K | $27.5K | 8.05% |
+
+---
+
+**Bonus — Payment behavior:** Cash on Delivery (COD) is the most common payment method at 42% of orders, followed by Online (37%) and Cards (22%).
 
 ## 📂 How to View
 
